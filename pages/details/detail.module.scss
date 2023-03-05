@@ -1,0 +1,52 @@
+.details{
+    padding: 0 16px;
+    margin-top: 24px;
+    h2{
+        text-align: center;
+        padding-bottom: 15px;
+        color: yellowgreen;
+    }
+    h3{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .detailimage{
+        width: 93%;
+        height:100%;
+        margin-top: 15px;
+    }
+    .info{
+        display: flex;
+        gap:24px;
+        align-items: center;
+        color: #8F9BB3;
+        font-size: 14px;
+        justify-content: center;
+        margin-top: 24px;
+    }
+    .blogright{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    p{
+       color: #2E3A59;
+       font-size: 14px;
+       text-align: justify;
+       padding: 0 20px;
+    }
+    .share{
+        display: flex;
+        align-items: center;
+        margin-top: 56px;
+        margin-left: 20px;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .details{
+        padding:0 320px;
+        padding-bottom: 10rem;
+    }
+}

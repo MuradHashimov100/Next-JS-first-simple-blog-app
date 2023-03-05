@@ -1,0 +1,36 @@
+/* Navbar.module.scss */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+                                                                      font-family: 'Euclid Circular A', sans-serif;
+                                                
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar__items {
+  display: flex;
+  a{
+    color: white;
+    font-size:20px;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+}
+
+.navbar__item {
+  margin-right: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar__item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,22 @@
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 32px;
+    h3{
+        font-size: 20px;
+        color: #222B45;
+    }
+    img{
+        background-color: #00D68F !important;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+    }
+    p{
+        color: #8F9BB3;
+        font-size:16px;
+    }
+}

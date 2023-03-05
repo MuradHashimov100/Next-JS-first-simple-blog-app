@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import Blog from '@/pages/Blogs';
+import Blog from '@/pages/blogs';
 export default function Document() {
   return (
     <Html lang="en">
